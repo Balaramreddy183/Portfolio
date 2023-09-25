@@ -6,7 +6,7 @@
 .portfolio-bg-container {
     background: #f9f4f4;
     height: 100%;
-}
+} 
 
 .landing-page-main-bg-container {
     height: 100vh;
@@ -24,6 +24,7 @@
     margin-left: 4em;
     
 }
+
 .social-media-icons-bg-container {
     height: 100%;
     display: flex;
@@ -37,6 +38,7 @@
 @media (max-width: 767px) {
     .social-media-icons-bg-container {
         flex-direction: row; /* Display icons in a row */
+        margin: 10% 0;
     }
 }
 
@@ -156,10 +158,11 @@
 }
 
 .about-main-bg-container {
-    height: 100vh;  
+    height: 100%;  
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 5% 0;
     
 }
 .about-heading-container {
@@ -174,19 +177,30 @@
     padding: 20px 0;
     margin: 0 50px;
 }
+/* --------------------------------- work Container ------------------------------*/
 
 .work-main-bg-container {
     height: 100%;
-    margin: 20px;
-    
+    margin: 20px;   
 }
 
 .work-sub-bg-container {
     background-color: #fff;
     height: 100%;
-    margin:10px 8%;
+    margin:10px 10%;
     border-radius: 15px;
 }
+@media (max-width:767) {
+     .work-sub-bg-container {
+        margin: 10% 0 ; 
+     }
+}
+@media (min-width : 768) {
+     .work-sub-bg-container {
+        margin: 10px 20% ;
+     }
+}
+
 .my-work-preview-container {
     display: grid;
     align-items: center;
@@ -198,54 +212,58 @@
 }
 .work-img-bg-container {
     height: 220px;
-    
     border-radius: 15px;  
     background-size: cover;
     overflow: hidden;
     border: 2px solid #343a40;
     position: relative;
-
-    
 }
 .hover-content {
     opacity: 0;
     position: absolute;
-    left: 40%;
+    left: 20%;
+    bottom: 10%;
     padding: 10px;
-    color: white;
-   
-
+    color: white; 
+    
 }
 .work-img {   
     width: 100%;
     height: 100%;
     cursor: pointer;
-    filter: grayscale(100%);
     transition: 0.5s all ease-in-out;
 }
 
 .work-img:hover {   
    transform: scale(1.2);
-   filter: grayscale(0%);
+   filter: blur(5px);
    
 }
 
 .work-img-bg-container:hover~ .hover-content {
     opacity: 1;
+    pointer-events: none;
 }
 
+
+/*-------------------------------- work Buttons -------------------------------*/
 
 .work-buttons {
     margin: 5px;
     transition: transform 2s;
     border: #343a40 solid 1px !important;
+    transition: 1s all ease-in-out;
    
 }
 .work-buttons:hover {
     border: #343a40 solid 1px;
-    transform: scale(1.1);
-    border-width: 0 3px 3px 0 !important;
+    transform: scale(1.2);
+    border-width: 0 3px 2px 0 !important;
    
 }
 
 
+
+.contact-main-bg-container {
+    height: 100vh;
+}
