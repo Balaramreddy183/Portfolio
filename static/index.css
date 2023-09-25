@@ -1,0 +1,251 @@
+.navbar {
+    background-color: #f9f4f4;
+    
+}
+
+.portfolio-bg-container {
+    background: #f9f4f4;
+    height: 100%;
+}
+
+.landing-page-main-bg-container {
+    height: 100vh;
+    background: #f9f4f4;
+    display: flex;
+    align-items: center;
+}
+
+.name-text-bg-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin-left: 4em;
+    
+}
+.social-media-icons-bg-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    -ms-flex-direction: row !important;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+@media (max-width: 767px) {
+    .social-media-icons-bg-container {
+        flex-direction: row; /* Display icons in a row */
+    }
+}
+
+@media (min-width: 768px) {
+    .social-media-icons-bg-container {
+        flex-direction: column; /* Display icons in a column */
+        align-items: center; /* Center-align icons vertically */
+    }
+}
+
+.icon-bg-container {
+    box-shadow: 0px 5px 5px #a8a6a6;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    
+    
+}
+.icon-bg-container:hover {
+    animation: iconanimation 1s  ;
+    background-color: #d4cbcb;
+   
+
+}
+
+@keyframes iconanimation {
+    0% {
+        background-color: #f9f4f4;
+        border-radius: 50%;
+        
+    }
+    100% {
+        border-radius: 5px;
+    }
+}
+
+.small-text {
+    font-size: 25px;
+    font-style: oblique;
+    
+}
+.name-text {
+    font-size: 30px;
+    font-style: initial;
+}
+.tag-line-text{
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Courier New' ;
+    font-family: myFirstFont !important;
+}
+.skills-main-bg-container { 
+    height: 100%;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: myFirstFont;
+    
+}
+
+.skill-names {
+    text-decoration: underline;
+    font-weight: bolder;
+    
+}
+.container-heading1 {
+    font-size: 26px;
+    font-weight: 500;
+    
+}
+.skill-sub-heading {
+    font-size: 18px;
+    font-weight: 500;
+    
+    
+}
+.skill-container {
+    padding: 10px 5px;
+    text-align: center;
+    
+}
+.skill-buttons {
+    margin: 10px 10px;
+    width: 180px;
+    box-shadow: 0 5px 5px #a8a6a6;
+    border-width: 0 !important;
+    border-radius: 25px;
+}
+.buttons-container {
+    display: flex;
+    justify-content: space-around;
+    
+}
+.skill-hr {
+    height: 50vh;
+    width: 5px;
+    background-color: black;
+}
+
+.buttons-container-l {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 15px;
+    margin: 5px;
+    background: rgb(206, 199, 199);
+    border-radius: 5px;
+}
+.learning-text {
+    background: #343a40 ;
+    background: #343a40 ;
+    color: white;
+    padding:10px;
+    margin: 3px;
+    border-radius: 5px;
+}
+
+.about-main-bg-container {
+    height: 100vh;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.about-heading-container {
+   padding: 0 0 40px 0;
+}
+.about-sub-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    padding: 20px 0;
+    margin: 0 50px;
+}
+
+.work-main-bg-container {
+    height: 100%;
+    margin: 20px;
+    
+}
+
+.work-sub-bg-container {
+    background-color: #fff;
+    height: 100%;
+    margin:10px 8%;
+    border-radius: 15px;
+}
+.my-work-preview-container {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin: 5% 0;
+    border-radius: 15px;
+    background-color: #fff;
+    text-size-adjust: auto;    
+}
+.work-img-bg-container {
+    height: 220px;
+    
+    border-radius: 15px;  
+    background-size: cover;
+    overflow: hidden;
+    border: 2px solid #343a40;
+    position: relative;
+
+    
+}
+.hover-content {
+    opacity: 0;
+    position: absolute;
+    left: 40%;
+    padding: 10px;
+    color: white;
+   
+
+}
+.work-img {   
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    filter: grayscale(100%);
+    transition: 0.5s all ease-in-out;
+}
+
+.work-img:hover {   
+   transform: scale(1.2);
+   filter: grayscale(0%);
+   
+}
+
+.work-img-bg-container:hover~ .hover-content {
+    opacity: 1;
+}
+
+
+.work-buttons {
+    margin: 5px;
+    transition: transform 2s;
+    border: #343a40 solid 1px !important;
+   
+}
+.work-buttons:hover {
+    border: #343a40 solid 1px;
+    transform: scale(1.1);
+    border-width: 0 3px 3px 0 !important;
+   
+}
+
+
