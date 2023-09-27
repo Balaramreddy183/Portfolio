@@ -1,5 +1,6 @@
 .navbar {
     background-color: #f9f4f4;
+    border-bottom-width: 3px #000;
     
 }
 
@@ -13,6 +14,8 @@
     background: #f9f4f4;
     display: flex;
     align-items: center;
+  
+
 }
 
 .name-text-bg-container {
@@ -55,26 +58,18 @@
     margin: 10px;
     border-radius: 50%;
     cursor: pointer;
-    
+    transition: all 1s;
+   
     
 }
 .icon-bg-container:hover {
     animation: iconanimation 1s  ;
-    background-color: #d4cbcb;
-   
-
+    border-radius: 10%;
+    background-color: #343a40;
+    fill: white;
 }
 
-@keyframes iconanimation {
-    0% {
-        background-color: #f9f4f4;
-        border-radius: 50%;
-        
-    }
-    100% {
-        border-radius: 5px;
-    }
-}
+
 
 .small-text {
     font-size: 25px;
@@ -145,7 +140,7 @@
     justify-content: space-between;
     padding: 5px 15px;
     margin: 5px;
-    background: rgb(206, 199, 199);
+    background: #e8e8e8;
     border-radius: 5px;
 }
 .learning-text {
@@ -159,9 +154,6 @@
 
 .about-main-bg-container {
     height: 100%;  
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin: 5% 0;
     
 }
@@ -171,15 +163,28 @@
 .about-sub-container {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 15px 10px;
+    align-items: end;
+    justify-content: center;    
     border-radius: 15px;
-    padding: 20px 0;
-    margin: 1% 10%;
-    background-color: #e8e8e8;
+    padding: 20px 5%;
+    margin: 3% 3%;
+    color: white;
+    background-image: url(../template/images/img1.JPG);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative;
+    max-width: 500px;
+    min-width: 350px;
+    transition: transform 1s;
    
 }
+.about-sub-container:hover {
+    background:#343a40 !important;
+    transform: scale(1.1);
+}
+
+
 
 .step-dot {
     width: 14px;
@@ -187,20 +192,41 @@
     background-color: #333;
     border-radius: 50%;
     position: absolute;
-    top: 20%;
-    left: 20%;
+    top: 28%;
+    left: 10%;
 }
+.step-dot2 {
+    width: 14px;
+    height: 14px;
+    background-color: #333;
+    border-radius: 50%;
+    position: absolute;
+    bottom:18%;
+    left: 10%;
+}
+
 
 .step-line {
     width: 2px;
-    height: 62%;
+    height: 50%;
     background: linear-gradient(180deg,transparent 50%,#333 0);
     background-size: 2px 10px;
     background-repeat: repeat-y;
     position: absolute;
-    top: 20%;
-    left: 20%;
+    top: 27%;
+    left: 11.4%;
+} 
+
+.about-mini-heading {
+    font-size: 32px;
+    font-weight: 500;
+    
 }
+.about-mini-sub-container {
+    line-height: 7px;
+    
+}
+
 /* --------------------------------- work Container ------------------------------*/
 
 .work-main-bg-container {
@@ -225,7 +251,8 @@
     text-size-adjust: auto;    
 }
 .work-img-bg-container {
-    height: 220px;
+    min-height: 190px;
+    height: 200px;
     border-radius: 15px;  
     background-size: cover;
     overflow: hidden;
