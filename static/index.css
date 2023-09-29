@@ -63,7 +63,7 @@
     
 }
 .icon-bg-container:hover {
-    animation: iconanimation 1s  ;
+    
     border-radius: 10%;
     background-color: #343a40;
     fill: white;
@@ -155,6 +155,12 @@
 .about-main-bg-container {
     height: 100%;  
     margin: 5% 0;
+    background-image: url(../template/images/img1.JPG);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    top: 0;
+    
     
 }
 .about-heading-container {
@@ -168,23 +174,51 @@
     border-radius: 15px;
     padding: 20px 5%;
     margin: 3% 3%;
-    color: white;
-    background-image: url(../template/images/img1.JPG);
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+    color: #000;
+    border: 1px solid #000; 
     position: relative;
     max-width: 500px;
     min-width: 350px;
-    transition: transform 1s;
+    transition: all 1s;
    
 }
+
 .about-sub-container:hover {
-    background:#343a40 !important;
-    transform: scale(1.1);
+    
+    columns: #fff !important;
+    
 }
 
+.sports-img-bg {
+    
+    
+}
 
+.sports-img-bg:hover {
+    background-image: url(../template/images/sports-img.png);
+    background-size: cover;
+    background-position: center;
+    filter: drop-shadow(0px 0px 10px  #e1a6a6);
+    background-color: #e1a6a6;
+    color: #f9f4f4;
+    filter: grayscale(100%);
+   
+   
+}
+
+.edu-img-bg {
+    
+}
+.edu-img-bg:hover {
+    background-image: url(../template/images/edu-img.png);
+    background-size:contain;
+    background-position: center;
+    filter: drop-shadow(0px 0px 20px  #000);
+    background-repeat: no-repeat;
+    opacity: 1;    
+    filter: grayscale(100%);
+    
+}
 
 .step-dot {
     width: 14px;
