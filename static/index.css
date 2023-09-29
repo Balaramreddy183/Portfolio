@@ -454,21 +454,127 @@
 .contact-mini-bg-container {
   background-color: #fff;
     width: 80%;
-    
+    border-radius: 5px;
     padding: 5% ;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 10px;
-    
+    opacity: 0.8;
 }
+.contact-mini-bg-container:hover{
+    opacity: 1;
+}
+
 .form-text {
     width: 100%;
-    margin: 5% 0 !important; 
+    margin: 2% 0 !important; 
+    
 }
 .form-button-bg {
-    text-align: center;
-}
-.form-description {
     width: 100%;
+    display: flex;
+    justify-content: center;
 }
+/* -------------- contact-form start------------*/
+.user-box {
+    position: relative;
+}
+
+.user-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #000;
+    border: none;
+    border-bottom: 1px dashed #000;
+    outline: none;
+    background: transparent;
+}
+
+.user-box textarea {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #000;
+    border: none;
+    border-bottom: 1px dashed #000;
+    outline: none;
+    background: transparent;
+}
+
+.user-box label {
+    position: absolute;
+    top: 15%;
+    left: 15px;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #000;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+.user-box input:focus~label,
+.user-box textarea:focus~label,
+.login-box .user-box input:valid~label {
+    top: -10px;
+    left: 15px;
+    color: #000;
+    font-size: 13px;
+}
+
+
+.form-button-bg button {
+    font-family: inherit;
+    font-size: 20px;
+    background: royalblue;
+    color: white;
+    padding:0.7em 1em;
+    padding-left: 0.9em;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 16px;
+    overflow: hidden;
+    transition: all 0.2s;
+  }
+  
+  .form-button-bg  button span {
+    display: block;
+    margin-left: 0.3em;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .form-button-bg  button svg {
+    display: block;
+    transform-origin: center center;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .form-button-bg  button:hover .svg-wrapper {
+    animation: fly-1 0.6s ease-in-out infinite alternate;
+  }
+  
+  .form-button-bg  button:hover svg {
+    transform: translateX(1.2em) rotate(45deg) scale(1.1);
+  }
+  
+  .form-button-bg  button:hover span {
+    transform: translateX(5em);
+  }
+  
+  .form-button-bg  button:active {
+    transform: scale(0.95);
+  }
+  
+  @keyframes fly-1 {
+    from {
+      transform: translateY(0.1em);
+    }
+  
+    to {
+      transform: translateY(-0.1em);
+    }
+  }
+  
+  
