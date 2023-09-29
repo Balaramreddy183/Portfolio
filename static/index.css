@@ -179,14 +179,27 @@
     position: relative;
     max-width: 500px;
     min-width: 350px;
-    transition: all 1s;
+    transition: all 1s ;
    
 }
 
 .about-sub-container:hover {
+    color: #fff !important;
     
-    columns: #fff !important;
     
+    
+}
+.exp-img-bg {
+    
+}
+.exp-img-bg:hover {
+    background-image: url(../template/images/exp-img2.jpg);
+    background-size: cover;
+    background-position: center;
+    filter: drop-shadow(0px 0px 10px  #e1a6a6);
+    background-color: #e1a6a6;
+    color: #f9f4f4;
+    filter: grayscale(100%);
 }
 
 .sports-img-bg {
@@ -207,7 +220,7 @@
 }
 
 .edu-img-bg {
-    
+    transform: all 1s;
 }
 .edu-img-bg:hover {
     background-image: url(../template/images/edu-img.png);
@@ -215,11 +228,24 @@
     background-position: center;
     filter: drop-shadow(0px 0px 20px  #000);
     background-repeat: no-repeat;
-    opacity: 1;    
+    background-color: #8cabd9;
     filter: grayscale(100%);
     
+    
 }
-
+.about-sub-container:hover .step-dot  {
+    background:#fff !important ;
+}
+.about-sub-container:hover .step-dot2  {
+    background:#fff !important ;
+}
+.about-sub-container:hover .step-line  {
+    width: 2px;
+    height: 50%;
+    background: linear-gradient(180deg,transparent 50%,#fff 0);
+    background-size: 2px 10px;
+    background-repeat: repeat-y;
+}
 .step-dot {
     width: 14px;
     height: 14px;
