@@ -1,25 +1,53 @@
 
 /*-------------Navbar starting -----------*/
 .navbar {
-    background-color: #000;
-    opacity: 0.9;
-   
-    
+    opacity: 0.9;   
+    border-bottom: #000 3px solid; /*
+    background-image: linear-gradient(to right, #929AAB , #929AAB, #f9f4f4); */
+    background-color: #000 !important;
+    color: #fff !important;
+
 }
 
 @media (min-width:991px ) {
     .navbar {
         padding: 0.5rem 7rem !important;
+        
     }
 }
-
+.logo-bg {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 42px;
+}
+.logo {
+    height: 40px;
+    width: 40px;
+    padding: 0 !important;
+}
+.navbar-nav {
+    gap: 15px;
+    font-family: "Twklausanne 150", sans-serif;
+}
 .nav-link {
     cursor: pointer;
+    transform: all 1s;
+    font-size: 18px;
 
 }
 .nav-link:hover {
-    color:#fff!important;
+    border-radius: 5px;
+    color: #000 !important;
+    font-size: 700;
+  
 }
+.nav-line {
+    width: 100vw;
+    height: 1px;
+    background-color: #343a40;
+    margin-top: 49px !important;
+    
+}
+
 /*----------------------- Navbar ending --------------------------*/
 .portfolio-bg-container {
     background: #f9f4f4;
@@ -27,7 +55,7 @@
 } 
 
 .landing-page-main-bg-container {
-    height: 100vh;
+    height: 90vh;
     background: #f9f4f4;
     display: flex;
     align-items: center;
