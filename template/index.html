@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>
+        <img src="../template/images/logo.png" class="logo" />
         Balaram's Portfolio
     </title>
     <link rel="stylesheet" href="../static/index.css">
@@ -17,9 +19,9 @@
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="#landingPageSection">
             <h4 class="logo-bg">
-                <img src="../template/images/logo.png" class="logo" /> alaram
+                Balaram
             </h4>
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,7 +39,6 @@
        
     </nav>
     <div class="portfolio-bg-container">  
-        
         <div class="landing-page-main-bg-container " id="landingPageSection">
         <div class="container ">            
             <div class="row ">
@@ -126,11 +127,11 @@
                 </div>
             </div>
         </div>
-        <div class="about-main-bg-container" id="aboutPageSection">
-            <div class="container-fluid">
+        <div class="about-main-bg-container pt-4" id="aboutPageSection">
+            <div class="container-fluid ">
                 <div class="row">
                     <div class="col-12">
-                        <div  class="about-heading-container">
+                        <div  class="about-heading-container pt-5" >
                             <h3 class="text-center skill-names">About Me</h3>
                             <h5 class="text-center ">Get to Know more about me</h5>
                         </div>
@@ -204,7 +205,7 @@
                                 </div>
                                 <div class="about-mini-sub-container mt-5 pt-2">
                                     <h5> Football </h5>
-                                    <p>State player</p>
+                                    <p id="workPageSection">State player</p>
                                 </div>
                             </div>
                         <div class="step-dot2" ></div>
@@ -213,7 +214,7 @@
                 </div>
             </div>
         </div>  
-        <div class="work-main-bg-container pt-5 mt-5" id="workPageSection">
+        <div class="work-main-bg-container" >
             <div>
                 <h3 class="text-center skill-names">My Works</h3>
                 <p class="text-center  pl-3 pr-3">Showcasing my diverse range of projects and creations in the world of technology.</p>
@@ -337,7 +338,7 @@
                                                 <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
                                               </svg>
                                         </button>
-                                        <button class=" work-buttons" >
+                                        <button class=" work-buttons" id="contactPageSection">
                                             Demo
                                             <svg width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-up-right" viewBox="0 0 16 16">
                                                 <path fill-rule="evenodd" d="M6.364 13.5a.5.5 0 0 0 .5.5H13.5a1.5 1.5 0 0 0 1.5-1.5v-10A1.5 1.5 0 0 0 13.5 1h-10A1.5 1.5 0 0 0 2 2.5v6.636a.5.5 0 1 0 1 0V2.5a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 .5.5v10a.5.5 0 0 1-.5.5H6.864a.5.5 0 0 0-.5.5z"/>
@@ -351,8 +352,7 @@
                     </div>
             </div>
         </div>
-        <div class="contact-main-bg-container" id="contactPageSection">
-            
+        <div class="contact-main-bg-container" >
                 <div class="contact-sub-bg-container">
                     <div class="contact-mini-bg-container">
                         <h4 class="skill-names">Contact</h4>                            
@@ -382,7 +382,7 @@
                                         <button>
                                             <div class="svg-wrapper-1">
                                               <div class="svg-wrapper">
-                                                <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                <svg height="24" width="24" viewBox="0 0 24 24">
                                                   <path d="M0 0h24v24H0z" fill="none"></path>
                                                   <path d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z" fill="currentColor"></path>
                                                 </svg>
@@ -398,12 +398,19 @@
                     </div>
                 </div>
            
-        </div>
+        </div> 
     </div>
     <footer>
-        
+        <div class="container">
+            <div class="row">
+                <div class="col-12 ">
+                    <div class="footer-bg">
+                        <p>Copyright ©2023 All rights reserved | This template is made by <span href="#">Balaramreddy</span> </p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </footer>
     <script src="index.js"></script>
-  
 </body>
 </html>

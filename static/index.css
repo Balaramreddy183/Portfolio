@@ -1,17 +1,19 @@
-
 /*-------------Navbar starting -----------*/
 .navbar {
     opacity: 0.9;   
-    border-bottom: #000 3px solid; /*
-    background-image: linear-gradient(to right, #929AAB , #929AAB, #f9f4f4); */
-    background-color: #000 !important;
-    color: #fff !important;
-
+    border-bottom: #000 3px solid; 
+    background-image: linear-gradient(to right, #929AAB , #f9f4f4); 
 }
 
 @media (min-width:991px ) {
     .navbar {
-        padding: 0.5rem 7rem !important;
+        padding: 0rem 9rem !important;
+        
+    }
+}
+@media (max-width:990px ) {
+    .navbar {
+       border: unset;
         
     }
 }
@@ -20,13 +22,16 @@
     font-size: 42px;
 }
 .logo {
-    height: 40px;
-    width: 40px;
+    height: 30px;
+    width: 30px;
     padding: 0 !important;
+    filter: drop-shadow(0px 0px 20px 20px #e8e4e4);
 }
 .navbar-nav {
-    gap: 15px;
+    gap: 20px;
     font-family: "Twklausanne 150", sans-serif;
+    font-family: "myFirstFont" !important;
+    font-weight: bold;
 }
 .nav-link {
     cursor: pointer;
@@ -53,9 +58,9 @@
     background: #f9f4f4;
     height: 100%;
 } 
-
+/*------------------------------------- Landing Page started here --------------------*/
 .landing-page-main-bg-container {
-    height: 90vh;
+    height: 100vh;
     background: #f9f4f4;
     display: flex;
     align-items: center;
@@ -131,8 +136,9 @@
     font-family: 'Courier New' ;
     font-family: myFirstFont !important;
 }
+/*--------------------------  Landing Page ended here --------------------*/
 
-/*--------------------- Skills page started here ----------------------*/
+/*--------------------------- Skills page started here ----------------------*/
 .skills-main-bg-container { 
     height: 90vh;  
     display: flex;
@@ -199,37 +205,17 @@
     border-radius: 5px;
 }
 
+/*--------------------------  Skills Page ended here --------------------*/
+
+/*--------------------------- About page started here ----------------------*/
 .about-main-bg-container {
-    height: 100%;  
-    margin: 5% 0;
-    margin: 2%;
+    margin: 0% 0;
     border-radius: 15px;
-    top: 0;
 }
 
-@media (max-width: 767px) {
-    .about-main-bg-container {
-        background-image: url(../template/images/img-1.jpg);
-        background-size: cover;
-        background-attachment: fixed;
-        background-repeat: no-repeat;
-        background-position: top;
-       
-        
-}
-}
 
-@media (min-width: 768px) {
-    .about-main-bg-container {
-        background-image: url();
-        background-size: cover;
-        background-attachment: fixed;
-        background-repeat: no-repeat;
-        background-position: top;     
-}
-}
 .about-heading-container {
-   padding: 0 0 40px 0;
+   padding: 10px 0 20px 0;
 }
 .about-sub-container {
     display: flex;
@@ -353,11 +339,11 @@
     
 }
 
-/* --------------------------------- work Container ------------------------------*/
+/* --------------------------------- work page Start  ------------------------------*/
 
 .work-main-bg-container {
     height: 100%;
-     
+    margin: 1% 0;
 }
 
 
@@ -596,8 +582,8 @@
     font-size: 20px;
     background: royalblue;
     color: white;
-    padding:0.7em 1em;
-    padding-left: 0.9em;
+    padding:0.5em 1em;
+    padding-left: 0.5em;
     display: flex;
     align-items: center;
     border: none;
@@ -647,6 +633,32 @@
 /*--------------- Footer section start ----------------*/
 
 footer {
-    height: 10vh;
+    height: 100%;
     background-color: #212121;
+    color: #e8e4e4;
+    
+}
+.footer-bg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width:767px) {
+    .footer-bg {
+        font-size: x-small;
+    }
+}
+@media (min-width: 768px) {
+    .footer-bg {
+        font-size: medium;
+    }
+}
+
+footer span {
+    font-weight: bold;
+}
+footer span:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
