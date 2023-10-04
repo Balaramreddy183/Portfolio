@@ -1,9 +1,26 @@
+
+/*-------------Navbar starting -----------*/
 .navbar {
-    background-color: #f9f4f4;
-    border-bottom-width: 3px #000;
+    background-color: #000;
+    opacity: 0.9;
+   
     
 }
 
+@media (min-width:991px ) {
+    .navbar {
+        padding: 0.5rem 7rem !important;
+    }
+}
+
+.nav-link {
+    cursor: pointer;
+
+}
+.nav-link:hover {
+    color:#fff!important;
+}
+/*----------------------- Navbar ending --------------------------*/
 .portfolio-bg-container {
     background: #f9f4f4;
     height: 100%;
@@ -40,15 +57,15 @@
 
 @media (max-width: 767px) {
     .social-media-icons-bg-container {
-        flex-direction: row; /* Display icons in a row */
+        flex-direction: row; 
         margin: 10% 0;
     }
 }
 
 @media (min-width: 768px) {
     .social-media-icons-bg-container {
-        flex-direction: column; /* Display icons in a column */
-        align-items: center; /* Center-align icons vertically */
+        flex-direction: column; 
+        align-items: center;
     }
 }
 
@@ -86,8 +103,10 @@
     font-family: 'Courier New' ;
     font-family: myFirstFont !important;
 }
+
+/*--------------------- Skills page started here ----------------------*/
 .skills-main-bg-container { 
-    height: 100%;  
+    height: 90vh;  
     display: flex;
     justify-content: center;
     align-items: center;
@@ -155,13 +174,31 @@
 .about-main-bg-container {
     height: 100%;  
     margin: 5% 0;
-    background-image: url(../template/images/img1.JPG);
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+    margin: 2%;
+    border-radius: 15px;
     top: 0;
-    
-    
+}
+
+@media (max-width: 767px) {
+    .about-main-bg-container {
+        background-image: url(../template/images/img-1.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: top;
+       
+        
+}
+}
+
+@media (min-width: 768px) {
+    .about-main-bg-container {
+        background-image: url();
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: top;     
+}
 }
 .about-heading-container {
    padding: 0 0 40px 0;
@@ -418,15 +455,13 @@
 
 /* ----------------- Contact Section starting  ------------------ */
 .contact-main-bg-container {
-    height:80vh;
+   
     padding: 3%;
-    margin: 0 0 5% 0;
+    margin: 0 0 0 0;
 }
 
 .contact-sub-bg-container {
-    height:80vh;
-    background-attachment: fixed;
-    background-position: center top;
+    height:35rem;
     display: flex;
     justify-content: center;
     align-items: center;  
@@ -436,10 +471,12 @@
 
 @media (max-width: 767px) {
     .contact-sub-bg-container {
-        background: url("../template/images/exp-img2.jpg");
+        background: url("https://images.unsplash.com/photo-1614741118887-7a4ee193a5fa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80");
+        /*background: url("../template/images/exp-img2.jpg");*/
         background-size: cover;
         background-attachment: fixed;
-        background-position: center top;
+        background-position: center center;
+        
     }
 }
 
@@ -448,11 +485,12 @@
         background: url("../template/images/contact_us_bg.jpg");
         background-size: cover;
         background-attachment: fixed;
-        background-position: center top;
+        background-position: center;
     }
 }
 .contact-mini-bg-container {
-  background-color: #fff;
+    background-color: #fff;
+    margin: 5% 0;
     width: 80%;
     border-radius: 5px;
     padding: 5% ;
@@ -466,6 +504,8 @@
     opacity: 1;
 }
 
+
+/* -------------- contact-form start------------*/
 .form-text {
     width: 100%;
     margin: 2% 0 !important; 
@@ -476,7 +516,6 @@
     display: flex;
     justify-content: center;
 }
-/* -------------- contact-form start------------*/
 .user-box {
     position: relative;
 }
@@ -577,4 +616,9 @@
     }
   }
   
-  
+/*--------------- Footer section start ----------------*/
+
+footer {
+    height: 10vh;
+    background-color: #212121;
+}
