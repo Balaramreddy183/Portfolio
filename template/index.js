@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
     let navLinks = document.querySelectorAll('.navbar-nav .nav-link');
+    let navbarToggler = document.querySelector('.navbar-toggler');
 
     navLinks.forEach(link => {
         link.addEventListener('click', function(e) {
@@ -13,6 +14,11 @@ document.addEventListener("DOMContentLoaded", function() {
                     behavior: 'smooth',
                     block: 'start'
                 });
+
+                // Close the navigation menu for small devices
+                if (window.innerWidth < 992) {
+                    navbarToggler.click();
+                }
             }
         });
     });

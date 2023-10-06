@@ -1,6 +1,6 @@
 /*-------------Navbar starting -----------*/
 .navbar {
-    opacity: 0.9;   
+    opacity: 1;   
     border-bottom: #000 3px solid; 
     background-image: linear-gradient(to right, #929AAB , #f9f4f4); 
 }
@@ -17,13 +17,26 @@
         
     }
 }
+
 .logo-bg {
     font-family: 'Brush Script MT', cursive;
-    font-size: 42px;
+    
+}
+@media (max-width:990px) {
+    .logo-bg {
+        font-size: 32px;
+        font-weight: bold;
+    }
+}
+
+@media (min-width:991px) {
+    .logo-bg {
+        font-size: 42px;
+       
+    }
 }
 .logo {
-    height: 30px;
-    width: 30px;
+    height: 10px;
     padding: 0 !important;
     filter: drop-shadow(0px 0px 20px 20px #e8e4e4);
 }
@@ -33,16 +46,26 @@
     font-family: "myFirstFont" !important;
     font-weight: bold;
 }
+@media (max-width:990px) {
+    .navbar-nav {
+       height: 100vh;
+       display: flex;
+       justify-content: start;
+       align-items: center;
+       gap: 51px;
+       top: 0;
+    }
+}
 .nav-link {
     cursor: pointer;
     transform: all 1s;
     font-size: 18px;
-
 }
 .nav-link:hover {
     border-radius: 5px;
     color: #000 !important;
     font-size: 700;
+    transition: all 0.3s ease-in-out;
   
 }
 .nav-line {
@@ -51,6 +74,30 @@
     background-color: #343a40;
     margin-top: 49px !important;
     
+}
+
+.nav-button {
+    position: relative;
+    overflow:hidden;
+
+}
+.nav-button:active{
+    transform:scale(0.96);
+}
+.nav-button::after {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 100%;
+    background-color: #000;
+    transform: scalex(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
+    color: #93dada;
+}
+.nav-button:hover::after {
+    transform: scalex(1);
+    border-collapse: collapse;
 }
 
 /*----------------------- Navbar ending --------------------------*/
@@ -236,16 +283,13 @@
 
 .about-sub-container:hover {
     color: #fff !important;
-    
-    
-    
 }/*
 
 .exp-img-bg {
     
 } */
 .exp-img-bg:hover {
-    background-image: url(../template/images/exp-img2.jpg);
+   
     background-size: cover;
     background-position: center;
     filter: drop-shadow(0px 0px 10px  #e1a6a6);
@@ -270,7 +314,18 @@
    
    
 }
+/*
+.freelancer-img-bg {
 
+}*/
+.freelancer-img-bg:hover {
+    background-size:contain;
+    background-position: center;
+    filter: drop-shadow(0px 0px 20px  #000);
+    background-repeat: no-repeat;
+    background-color: #8cabd9;
+    filter: grayscale(100%);
+}
 /*.edu-img-bg {
     
 } */
@@ -282,8 +337,6 @@
     background-repeat: no-repeat;
     background-color: #8cabd9;
     filter: grayscale(100%);
-    
-    
 }
 .about-sub-container:hover .step-dot  {
     background:#fff !important ;
@@ -568,7 +621,34 @@
 }
 
 .user-box input:focus~label,
+.user-box input:valid~label,
+.login-box .user-box input:valid~label {
+    top: -10px;
+    left: 15px;
+    color: #000;
+    font-size: 13px;
+}
 .user-box textarea:focus~label,
+.user-box textarea:valid~label,
+.login-box .user-box input:valid~label {
+    top: -10px;
+    left: 15px;
+    color: #000;
+    font-size: 13px;
+}
+
+
+/* 
+.user-box input[type="text"]:focus + label,
+.user-box input[type="text"]:valid + label {
+    transform: translateY(-24px);
+    font-size: 12px;
+    color: #3498db;
+} */
+
+.user-box input:focus~label,
+.user-box input:valid~label,
+.login-box .user-box input:focus~label,
 .login-box .user-box input:valid~label {
     top: -10px;
     left: 15px;
@@ -633,7 +713,11 @@
 /*--------------- Footer section start ----------------*/
 
 footer {
-    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 5vh;
     background-color: #212121;
     color: #e8e4e4;
     
