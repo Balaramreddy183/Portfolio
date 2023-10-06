@@ -655,8 +655,6 @@
     color: #000;
     font-size: 13px;
 }
-
-
 .form-button-bg button {
     font-family: inherit;
     font-size: 20px;
@@ -709,7 +707,7 @@
       transform: translateY(-0.1em);
     }
   }
-  
+/*--------------- contact page ended ----------------*/
 /*--------------- Footer section start ----------------*/
 
 footer {
