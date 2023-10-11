@@ -58,3 +58,10 @@
   height: 44px;
   border-radius: 8px;
 }
+
+.back-button-js {
+    width: 10vw;
+    text-align: center;
+    margin: 1%
+    ;
+}
