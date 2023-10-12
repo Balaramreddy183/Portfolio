@@ -391,7 +391,17 @@
     line-height: 7px;
     
 }
+.anchor-element {
+    text-decoration: none;
+    color: #000;
+    transition: all 0.5s;
+}
 
+.anchor-element:hover {
+    color: #fff;
+    padding: 1%;
+    border-radius: 5px;
+}
 /* --------------------------------- work page Start  ------------------------------*/
 
 .work-main-bg-container {
