@@ -100,6 +100,24 @@
     border-collapse: collapse;
 }
 
+.landing-page-main-bg-container:hover .nav-button:active{
+    transform:scale(0.96);
+}
+.landing-page-main-bg-container:hover .nav-button::after{
+    content: "";
+    display: block;
+    height: 3px;
+    width: 100%;
+    background-color: #000;
+    transform: scalex(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
+    color: #93dada;
+}
+.landing-page-main-bg-container:hover .nav-button:hover::after{
+    transform: scalex(1);
+    border-collapse: collapse;
+}
 /*----------------------- Navbar ending --------------------------*/
 .portfolio-bg-container {
     background: #f9f4f4;
@@ -182,6 +200,129 @@
     font-weight: bold;
     font-family: 'Courier New' ;
     font-family: myFirstFont !important;
+}
+
+.landing-page-buttons-bg {
+    display: flex;
+    gap: 5px;
+}
+
+.resume-button {
+    --width: 90px;
+    --height: 40px;
+    --tooltip-height: 35px;
+    --tooltip-width: 90px;
+    --gap-between-tooltip-to-button: 18px;
+    --button-color: #fff;
+    --tooltip-color: #fff;
+    width: var(--width);
+    height: var(--height);
+    background: var(--button-color);
+    position: relative;
+    text-align: center;
+    border-radius: 5px;
+    font-family: "Arial";
+    transition: background 0.3s;
+    border: #000 1px solid;
+}
+
+.resume-button::before {
+    position: absolute;
+    content: attr(data-tooltip);
+    width: var(--tooltip-width);
+    height: var(--tooltip-height);
+    background-color: var(--tooltip-color);
+    font-size: 0.9rem;
+    color: #111;
+    border-radius: .25em;
+    line-height: var(--tooltip-height);
+    bottom: calc(var(--height) + var(--gap-between-tooltip-to-button) + 10px);
+    left: calc(50% - var(--tooltip-width) / 2);
+}
+
+.resume-button::after {
+    position: absolute;
+    content: '';
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-top-color: var(--tooltip-color);
+    left: calc(50% - 10px);
+    bottom: calc(100% + var(--gap-between-tooltip-to-button) - 10px);
+}
+
+.resume-button::after,
+.resume-button::before {
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s;
+}
+
+.resume-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.resume-button-wrapper,
+.resume-text,
+.resume-icon {
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    color: #000;
+    font-weight: 500;
+}
+
+.resume-text {
+    top: 0
+}
+
+.resume-text,
+.resume-icon {
+    transition: top 0.5s;
+}
+
+.resume-icon {
+    color: #fff;
+    top: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.resume-icon svg {
+    width: 24px;
+    height: 24px;
+}
+
+.resume-button:hover {
+    background: #000;
+    border: 1px solid #000;
+}
+
+.resume-button:hover .resume-text {
+    top: -100%;
+}
+
+.resume-button:hover .resume-icon {
+    top: 0;
+}
+
+.resume-button:hover:before,
+.resume-button:hover:after {
+    opacity: 1;
+    visibility: visible;
+}
+
+.resume-button:hover:after {
+    bottom: calc(var(--height) + var(--gap-between-tooltip-to-button) - 20px);
+}
+
+.resume-button:hover:before {
+    bottom: calc(var(--height) + var(--gap-between-tooltip-to-button));
 }
 /*--------------------------  Landing Page ended here --------------------*/
 

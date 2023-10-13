@@ -23,6 +23,7 @@
     <meta name="theme-color" content="#ffffff">    
 </head>
 <body>
+    <!-- Navbar Start here-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <a class="navbar-brand" >
             <h4 class="logo-bg">
@@ -42,7 +43,10 @@
             </div>
         </div>
     </nav>
-    <div class="portfolio-bg-container">  
+    <!-- Navbar End here-->
+    
+    <div class="portfolio-bg-container"> 
+        <!-- Landing page Start here --> 
         <div class="landing-page-main-bg-container " id="landingPageSection">
         <div class="container ">            
             <div class="row ">
@@ -51,11 +55,23 @@
                         <h4 class="small-text ">Welcome to my Portfolio!</h4>
                         <h3 class="name-text ">I am Balaram Reddy.</h3>
                         <h3 class="tag-line-text ">A Passionate Front-End Developer</h3>
-                        <div> 
+                        <div class="landing-page-buttons-bg"> 
                             <a>
                                 <button class="btn btn-secondary scrollto"  data-target="#contactPageSection">Hire Me</button>
                             </a>
-                            <button class="btn btn-outline-secondary">Resume</button>
+                            <a href="/images/files/Balaram_exp.pdf" download="Balaramreddy Pandillapalli">
+                                <div class="resume-button" data-tooltip="Size: 122 KB">
+                                    <div class="resume-button-wrapper">
+                                        <div class="resume-text">Resume</div>
+                                        <span class="resume-icon"> 
+                                            <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="2em" height="2em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+                                                <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15V3m0 12l-4-4m4 4l4-4M2 17l.621 2.485A2 2 0 0 0 4.561 21h14.878a2 2 0 0 0 1.94-1.515L22 17"></path>
+                                            </svg>
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                            
                         </div>
                     </div>
                     
@@ -89,6 +105,7 @@
             </div>
         </div>
         </div>  
+        <!-- Skills page Start here -->
         <div class="skills-main-bg-container " id="skillsPageSection">
             <div class="container-fluid">
                 <div class="row">
@@ -113,6 +130,14 @@
                                     <button class="btn btn-outline-dark skill-buttons">Python</button>
                                     <button class="btn btn-dark skill-buttons">Git</button>
                                 </div>
+                                <div class="buttons-container">
+                                    <button class="btn btn-dark skill-buttons">Canva</button>
+                                    <button class="btn btn-outline-dark skill-buttons">Photography</button>
+                                </div>
+                                <div class="buttons-container">
+                                    <button class="btn btn-outline-dark skill-buttons">Client Communication</button>
+                                    <button class="btn btn-dark skill-buttons">Ms Office</button>
+                                </div>
                             </div>                        
                         </div>
                     <div class="col-md-2 d-none d-md-block">
@@ -122,7 +147,11 @@
                         <div class="skill-container animate__animated  animate__fadeInUp">
                             <p class="container-heading1">What Am I Learning?</p>
                             <p class="skill-sub-heading">List of things I’m learning, thought I’d share this.</p>
-                            <div class="buttons-container-l">
+                                <div class="buttons-container-l">
+                                    <h5> JavaScript Essentials </h5>      
+                                    <p class="learning-text">Learning</p>                 
+                                </div>
+                                <div class="buttons-container-l">
                                     <h5>Node</h5>      
                                     <p class="learning-text">Learning</p>                 
                                 </div>
@@ -139,6 +168,8 @@
                 </div>
             </div>
         </div>
+        <!-- Skills page End here -->
+        <!-- About page Start here -->
         <div class="about-main-bg-container pt-4" id="aboutPageSection">
             <div class="container-fluid ">
                 <div class="row">
@@ -228,6 +259,8 @@
                 </div>
             </div>
         </div>  
+        <!-- About page End here -->
+        <!-- Work page Start here -->
         <div class="work-main-bg-container" >
             <div>
                 <h3 class="text-center skill-names">My Works</h3>
@@ -418,15 +451,17 @@
             
             <div class="text-center">
                 <a href="https://balaramreddy.ccbp.tech/" target="_blank"> <button class="work-buttons"> More Projects</button></a>
-                <a href="/jsprograms.html" target="_blank" id="contactPageSection"><button class="work-buttons"> JavaScript Projects</button></a>
+                <a href="/jsprograms.html" target="_self" id="contactPageSection"><button class="work-buttons"> JavaScript Projects</button></a>
             </div>
         </div>
+        <!-- Work page End here -->
+        <!-- Contact page Start here -->
         <div class="contact-main-bg-container" >
                 <div class="contact-sub-bg-container">
                     <div class="contact-mini-bg-container">
                         <h4 class="skill-names">Contact</h4>                            
                         <h3>Interested in working together? Let's talk</h3>
-                        <form class="">
+                        <form>
                             <div class="container">
                                 <div class="row">
                                     <div class="col-12 col-md-6 user-box">
@@ -466,8 +501,10 @@
                         </form>
                     </div>
                 </div>
-        </div> 
+        </div>
+        <!-- Contact page End here --> 
     </div>
+    <!-- Footer  Start here -->
     <footer>
         <div class="container">
             <div class="row">
@@ -481,6 +518,10 @@
             </div>
         </div>
     </footer>
+    <!-- Footer  End here -->
+
+    <!-- JavaScript Links Start here-->
     <script src="index.js"></script>
+    <!-- JavaScript Links End here -->
 </body>
 </html>
