@@ -669,8 +669,15 @@
 
 .work-buttons:hover::before {
     width: 100%;
-   }
+}
 
+.js-pr-list {
+    list-style-type: decimal;
+   display: flex;
+   flex-direction: column;
+   gap: 5px;
+  
+}
 /* ----------------- Contact Section starting  ------------------ */
 .contact-main-bg-container {
    

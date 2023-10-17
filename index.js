@@ -23,3 +23,29 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
 });
+
+
+$(document).ready(function(){
+    // Initialize the popover
+    $('#popoverButton').popover({
+      title: 'Java Script Projects',
+      content: function() {
+        return $('#popoverContent').html();
+      }, 
+      html:true,
+  
+    });
+
+    // Show the popover when the button is clicked
+    $('#popoverButton').on('click', function() {
+      $(this).popover('show');
+    });
+  }); 
+
+  // Close the popover when clicking outside
+$(document).on('click', function (e) {
+    if (!$(e.target).is('#popoverButton') && !$(e.target).parents().is('.popover')) {
+      $('#popoverButton').popover('hide');
+    }
+  });
+  

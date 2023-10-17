@@ -21,6 +21,7 @@
     <link rel="mask-icon" href="title-icon/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">    
+    
 </head>
 <body>
     <!-- Navbar Start here-->
@@ -451,12 +452,22 @@
             
             <div class="text-center">
                 <a href="https://balaramreddy.ccbp.tech/" target="_blank"> <button class="work-buttons"> More Projects</button></a>
-                <a href="/jsprograms.html" target="_self" id="contactPageSection"><button class="work-buttons"> JavaScript Projects</button></a>
+              
+                    <button type="button" class="work-buttons " id="popoverButton">JavaScript Projects</button>
+                  <div id="popoverContent" style="display: none;">
+                    <ul class="js-pr-list">
+                        <li>
+                            <a href="Switch On-Off.html" class="btn btn-outline-dark">Switch On/Off</a>
+                        </li>
+                        <li>
+                            <a href="counter.html" class="btn btn-dark">Counter </a>
+                        </li>
+                    </ul>  
+                  </div>
             </div>
         </div>
-        <!-- Work page End here -->
         <!-- Contact page Start here -->
-        <div class="contact-main-bg-container" >
+        <div class="contact-main-bg-container" id="contactPageSection">
                 <div class="contact-sub-bg-container">
                     <div class="contact-mini-bg-container">
                         <h4 class="skill-names">Contact</h4>                            
