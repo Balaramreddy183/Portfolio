@@ -1,3 +1,4 @@
+//scroll animation start here
 document.addEventListener("DOMContentLoaded", function() {
     let navLinks = document.querySelectorAll('.navbar-nav .nav-link');
     let navbarToggler = document.querySelector('.navbar-toggler');
@@ -23,7 +24,9 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
 });
+//scroll animation ends here
 
+//pop over started here 
 
 $(document).ready(function(){
     // Initialize the popover
@@ -49,3 +52,4 @@ $(document).on('click', function (e) {
     }
   });
   
+  // popover ends here
