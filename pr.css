@@ -1,0 +1,1127 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.name {
+    font-family: Serif;
+    font-size: 48px;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 15px;
+    text-shadow: 2px 2px #ccc;
+
+}
+
+.menu-section-heading {
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.menu-item-image {
+    border-radius: 16px;
+}
+
+.menu-card-title {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 24px;
+}
+
+.menu-item-link {
+    color: #d0b200;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.menu-item-card {
+    border-radius: 16px;
+
+}
+
+
+
+.tourism-bg-container {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/ocean.jpg");
+    height: 710px;
+    width: 400px;
+}
+
+.tourism-card {
+    text-align: center;
+    background-color: white;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    padding: 5px;
+}
+
+.button {
+    color: white;
+    background-color: #25b1cc;
+    width: 138px;
+    height: 36px;
+    border-width: 0px;
+    border-radius: 20px;
+}
+
+.main-heading {
+    font-family: "Roboto";
+}
+
+.paragraph {
+    font-family: "Roboto";
+}
+
+.back-button {
+    background-color: black;
+    color: white;
+    height: 30px;
+    width: 50px;
+    border-radius: 8px;
+    border-width: 0px;
+}
+
+.favourite-places-bg-container {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/towerbg.png");
+    height: 710px;
+    width: 500px;
+    padding: 24px;
+}
+
+.favourite-places-heading {
+    color: white;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.favourite-place-card-container {
+    background-color: white;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 15px;
+}
+
+.favourite-place-card-heading {
+    color: #0f0e46;
+    font-family: "Roboto";
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.favourite-place-card-description {
+    color: #6c6b70;
+    font-family: "Roboto";
+    font-size: 13px;
+}
+
+.favourite-place-card-image {
+    width: 80px;
+    height: 100px;
+}
+
+.favourite-place-card-text-container {
+    margin-right: 15px;
+}
+
+.detailed-view-bg-container {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/seabg.png");
+    height: 710px;
+    width: 500px;
+    padding: 24px;
+}
+
+.detailed-view-heading {
+    color: white;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: bold;
+    padding: 24px;
+}
+
+.detailed-view-card-container {
+    background-color: white;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    margin: 24px;
+}
+
+.detailed-view-card-heading {
+    color: #0f0e46;
+    font-family: "Roboto";
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.detailed-view-card-description {
+    color: #6c6b70;
+    font-family: "Roboto";
+    font-size: 13px;
+}
+
+.detailed-view-card-text-container {
+    padding: 16px;
+}
+
+.tourism-bg-container {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/ocean.jpg");
+    height: 710px;
+    width: 400px;
+}
+
+.tourism-card {
+    text-align: center;
+    background-color: white;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    padding: 5px;
+}
+
+.button {
+    color: white;
+    background-color: #25b1cc;
+    width: 138px;
+    height: 36px;
+    border-width: 0px;
+    border-radius: 20px;
+}
+
+.main-heading {
+    font-family: "Roboto";
+}
+
+.paragraph {
+    font-family: "Roboto";
+}
+
+.favourite-places-bg-container {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/towerbg.png");
+    height: 710px;
+    width: 500px;
+    padding: 24px;
+}
+
+.favourite-places-heading {
+    color: white;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.favourite-place-card-container {
+    background-color: white;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 15px;
+}
+
+.favourite-place-card-heading {
+    color: #0f0e46;
+    font-family: "Roboto";
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.favourite-place-card-description {
+    color: #6c6b70;
+    font-family: "Roboto";
+    font-size: 13px;
+}
+
+.favourite-place-card-image {
+    width: 80px;
+    height: 100px;
+}
+
+.favourite-place-card-text-container {
+    margin-right: 15px;
+}
+
+.detailed-view-bg-container {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/seabg.png");
+    height: 710px;
+    width: 500px;
+    padding: 24px;
+}
+
+.detailed-view-heading {
+    color: white;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: bold;
+    padding: 24px;
+}
+
+.detailed-view-card-container {
+    background-color: white;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    margin: 24px;
+}
+
+.detailed-view-card-heading {
+    color: #0f0e46;
+    font-family: "Roboto";
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.detailed-view-card-description {
+    color: #6c6b70;
+    font-family: "Roboto";
+    font-size: 13px;
+}
+
+.detailed-view-card-text-container {
+    padding: 16px;
+}
+
+
+.podcast-bg-container {
+    width: 350px;
+    background-color: #ECF9FF;
+
+}
+
+.podcast-home-page-first-container {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/podcasts-bg.png");
+    height: 200px;
+    background-size: cover;
+}
+
+.podcast-home-page-first-container-heading {
+    color: white;
+    padding: 20px;
+    font-size: 35px;
+}
+
+.podcast-home-page-second-container {
+    margin: 15px;
+    text-align: center;
+}
+
+.podcast-home-page-second-container-image {
+    height: 100px;
+    margin: 10px;
+}
+
+.podcast-home-page-second-container-names {
+    color: #151765;
+    font-size: 20px;
+}
+
+.podcast-home-page-second-container-episodes {
+    color: #5a7184;
+}
+
+.Podcast-Puri-Jagannadh-Page-main-container {
+    background-color: #151765;
+    padding: 15px;
+    color: white;
+}
+
+.Podcast-Puri-Jagannadh-Page-main-container-heading {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.Podcast-Puri-Jagannadh-Page-normal-container {
+    padding: 10px;
+
+}
+
+.Podcast-Puri-Jagannadh-Page-normal-container-heading {
+    color: #151765;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.Podcast-Puri-Jagannadh-Page-normal-container-paragraph {
+    font-size: 15px;
+    color: #5a7184;
+}
+
+.podcast-back-button {
+    background-color: #151765;
+    border-radius: 15px;
+    color: white;
+    width: 80px;
+    margin: 5px;
+    padding: 10px;
+}
+
+/* ---------- conference-starts-code ----------*/
+.conference-photo {
+    width: 100vw;
+    background-size: cover;
+}
+
+.conference-heading-color {
+    color: #183b56;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.conference-description {
+    color: #5a7184;
+    font-size: 13px;
+}
+
+.conference-styling {
+    padding: 8px;
+    margin: 8px;
+}
+
+.conference-containers {
+    margin: 10px;
+}
+
+
+.flat-home-bg-container {
+    background-image: url("https://assets.ccbp.in/frontend/static-website/flats-list-bg.png");
+    height: 100vh;
+    background-size: cover;
+}
+
+.flat-home-card-container {
+    background-color: #ffffff;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.flat-home-card-heading {
+    color: #f19116;
+    font-size: 23px;
+    font-weight: 500;
+    font-family: "Bree Serif";
+    padding-top: 15px;
+}
+
+.flat-home-card-description {
+    color: #6c6b70;
+    font-size: 17px;
+    font-family: "Bree Serif";
+}
+
+.flat-home-card-button {
+    background-color: #f19116;
+    border-radius: 8px;
+    border-width: 0px;
+    width: 110px;
+    height: 35px;
+    color: #ffffff;
+}
+
+.flats-list-bg {
+    background-color: #222222;
+    background-size: cover;
+}
+
+.flats-list-heading {
+    color: #f19116;
+    font-size: 23px;
+    font-weight: 500;
+    font-family: "Bree Serif";
+    margin: 10px;
+    padding-top: 20px;
+}
+
+.flat-type-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+.flat-type-image {
+    height: 230px;
+    width: 110px;
+}
+
+.flat-type-card-heading {
+    color: #0f0e46;
+    font-size: 20px;
+    font-family: "Bree Serif";
+    font-weight: 500;
+}
+
+.flat-type-card-description {
+    color: #7b8794;
+    font-size: 15px;
+    font-family: "Bree Serif";
+}
+
+.flat-type-card-margin {
+    padding: 10px;
+}
+
+.flat-list-deailed-view-image1 {
+    background-image: url("https://assets.ccbp.in/frontend/static-website/flats-list-d1-img.png");
+    height: 700px;
+    background-size: cover;
+}
+
+.flat-type-detailed-view-icon {
+    height: 20px;
+    width: 20px;
+    margin: 10px;
+}
+
+.flast-list-detailed-view-location {
+    color: white;
+    font-family: "Roboto";
+    font-size: 13px;
+    margin: 10px;
+}
+
+.horizontal-line {
+    background-color: white;
+    margin: 10px;
+}
+
+.flat-list-detailed-view-button {
+    background-color: #f19116;
+    border-radius: 8px;
+    border-width: 0px;
+    width: 110px;
+    height: 35px;
+    color: #ffffff;
+    margin: 10px;
+}
+
+.flat-list-deailed-view-image2 {
+    background-image: url("https://assets.ccbp.in/frontend/static-website/flats-list-d2-img.png");
+    height: 700px;
+    background-size: cover;
+}
+
+.flat-list-deailed-view-image3 {
+    background-image: url("https://assets.ccbp.in/frontend/static-website/flats-list-d3-img.png");
+    height: 700px;
+    background-size: cover;
+}
+
+
+
+.food-munch-logo {
+    width: 80px;
+    height: 70px;
+    padding: 0;
+}
+
+#navItem1 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+#navItem2 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+#navItem3 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+#navItem4 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+.banner-section-bg-container {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/foodmunch-banner-bg.png");
+    height: 100vh;
+    background-size: cover;
+}
+
+.banner-heading {
+    color: white;
+    font-family: "Roboto";
+    font-size: 45px;
+    font-weight: 300;
+}
+
+.banner-caption {
+    color: #f5f7fa;
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.custom-button {
+    color: white;
+    background-image: linear-gradient(#d0b200, #a58d00);
+    width: 130px;
+    height: 45px;
+    border-width: 0;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+.custom-outline-button {
+    color: #d0b200;
+    background-color: transparent;
+    width: 130px;
+    height: 45px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #d0b200;
+    border-radius: 8px;
+}
+
+.wcu-section {
+    background-color: #f9fbfe;
+}
+
+.wcu-section-heading {
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.wcu-section-description {
+    color: #5a7184;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+.wcu-card {
+    text-align: center;
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e5eaf4;
+    border-radius: 16px;
+}
+
+.wcu-card-image {
+    width: 87px;
+    height: 90px;
+}
+
+.wcu-card-title {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.wcu-card-description {
+    color: #7b8794;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+.offers {
+    color: #323f4b;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.explore-menu-section {
+    background-color: white;
+}
+
+.menu-section-heading {
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.menu-item-image {
+    border-radius: 16px;
+}
+
+.menu-card-title {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 24px;
+}
+
+.menu-item-link {
+    color: #d0b200;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.menu-item-card {
+    border-radius: 16px;
+}
+
+.healthy-food-section {
+    background-color: #f9fbfe;
+}
+
+.healthy-food-section-img {
+    width: 270px;
+}
+
+.healthy-food-section-heading {
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.healthy-food-section-description {
+    color: #5a7184;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+.delivery-and-payment-section {
+    background-color: white;
+}
+
+.delivery-and-payment-section-img {
+    width: 270px;
+}
+
+.delivery-and-payment-section-heading {
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.delivery-and-payment-section-description {
+    color: #5a7184;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+.payment-card-img {
+    width: 50px;
+    height: 50px;
+    margin-right: 28px;
+}
+
+.thanking-customers-section {
+    background-image: radial-gradient(#fff8db, #fae38c);
+}
+
+.thanking-customers-section-heading {
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.thanking-customers-section-description {
+    color: #5a7184;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+.thanking-customers-section-img {
+    width: 270px;
+    margin-bottom: 20px;
+}
+
+.thanking-customers-section-pop-up {
+    color: #d0b200;
+    font-weight: 600;
+}
+
+.follow-us-section {
+    background-color: white;
+}
+
+.follow-us-section-heading {
+    text-align: center;
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.follow-us-icon-container {
+    background-color: #faf7e8;
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    margin: 15px;
+    padding-top: 22px;
+    padding-bottom: 14px;
+    padding-right: 16px;
+    padding-left: 22px;
+}
+
+.icon {
+    color: #d0b200;
+    font-size: 35px;
+}
+
+.footer-section {
+    background-color: #0d2436;
+}
+
+.footer-section-mail-id {
+    color: #959ead;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.vr-navbar-logo {
+    height: 40px;
+    width: 45px;
+}
+
+#id-1 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+#id-2 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+#id-3 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+#id-4 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+.vr-bg-image {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-banner-bg.png");
+    background-size: cover;
+    height: 100vh;
+}
+
+.vr-heading {
+    color: white;
+    font-family: "Roboto";
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.vr-button {
+    background-color: #1a2137;
+    height: 45px;
+    width: 130px;
+    color: white;
+    font-family: "Roboto";
+    border-radius: 4px;
+    border-width: 0px;
+}
+
+.vr-features-background {
+    background-color: white;
+}
+
+.vr-features-heading {
+    font-family: "Roboto";
+    font-size: 26px;
+    font-weight: bold;
+    color: #1f2933;
+}
+
+.vr-features-image {
+    height: 64px;
+    width: 64px;
+}
+
+.vr-features-image-title {
+    color: #1f2933;
+    font-family: "Roboto";
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.vr-features-image-description {
+    color: #7b8794;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+span {
+    color: #1f2933;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.vr-kit-background {
+    background-color: #f9fbfe;
+}
+
+.vr-kit-heading {
+    color: #1f2933;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+
+.vr-kit-image {
+    height: 200px;
+    width: 250px;
+}
+
+.vr-kit-image-title {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.vr-optics-and-controllers-background {
+    background-color: white;
+}
+
+.vr-optics-and-controllers-image {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.vr-optics-and-controllers-title {
+    color: #1f2933;
+    font-size: 36px;
+    font-weight: 700;
+    font-family: "Roboto";
+}
+
+.vr-optics-and-controllers-description {
+    color: #7b8794;
+    font-family: "Roboto";
+    font-size: 20px;
+}
+
+.vr-optics-and-controllers-button {
+    background-color: #1a2137;
+    color: white;
+    height: 45px;
+    width: 130px;
+    border-radius: 4px;
+    border-width: 0px;
+    font-weight: 500;
+    font-size: 18px;
+    font-family: "Roboto";
+}
+
+.vr-contact-us-background {
+    background-color: #222b36;
+}
+
+.vr-contact-us-heading {
+    color: white;
+    font-weight: 700;
+    font-family: "Roboto";
+    font-size: 40px;
+}
+
+.vr-contact-us-image {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.vr-contact-us-button {
+    background-color: transparent;
+    color: white;
+    border-radius: 6px;
+    border-width: 1px;
+    border-color: white;
+    border-style: solid;
+    font-size: 12px;
+    height: 35px;
+    width: 110px;
+}
+
+.vr-trending-blogs-background {
+    background-color: white;
+}
+
+.vr-trending-blogs-heading {
+    color: #1f2933;
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.vr-trending-blogs-image {
+    height: 190px;
+    width: 100%;
+}
+
+.vr-trending-blogs-title {
+    color: #959ead;
+    font-size: 14px;
+    font-family: "Roboto";
+    font-weight: 700;
+}
+
+.vr-trending-blogs-description {
+    color: #323f4b;
+    font-size: 20px;
+    font-family: "Roboto";
+    font-weight: 500;
+}
+
+.link {
+    color: #1754a1;
+    font-size: 14px;
+    font-family: "Roboto";
+    font-weight: 700;
+}
+
+.vr-trending-blogs-button {
+    background-color: #1754a1;
+    color: white;
+    height: 56px;
+    width: 173px;
+    border-radius: 4px;
+    border-width: 0px;
+    font-weight: 500;
+    font-size: 18px;
+    font-family: "Roboto";
+}
+
+.vr-products-background {
+    background-color: white;
+}
+
+.vr-products-heading {
+    color: #1f2933;
+    font-family: "Roboto";
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.product-card {
+    width: 100%;
+    height: 600px;
+}
+
+.vr-product-1 {
+    background-image: url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-products-headset-img.png');
+    background-size: cover;
+
+}
+
+.vr-product-title {
+    color: white;
+    font-family: "Roboto";
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.vr-product-price {
+    color: white;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.vr-product-button {
+    color: white;
+    border-radius: 5px;
+    border-width: 2px;
+    font-size: 18px;
+    font-weight: 500;
+    border-color: white;
+    border-style: solid;
+    background-color: transparent;
+    height: 40px;
+    width: 120px;
+    font-family: "Roboto";
+}
+
+.vr-product-2 {
+    background-image: url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-products-headset-with-controllers-img.png');
+    background-size: cover;
+}
+
+.custom-button {
+    color: white;
+    background-color: #1754a1;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 500;
+    height: 56px;
+    width: 173px;
+    border-radius: 5px;
+    border-width: 0px;
+}
+
+.vr-footer-section-bg-container {
+    background-color: #19232d;
+
+}
+
+.vr-footer-section-custom-logo {
+    height: 56px;
+    width: 36px;
+}
+
+.vr-footer-section-icons {
+    background-color: #202b36;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    padding-left: 15px;
+}
+
+.icon {
+    color: #5a7184;
+    font-size: 18px;
+}
+
+.vr-footer-section-address {
+    color: #5a7184;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.vr-footer-section-sub-heading {
+    color: #5a7184;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Roboto";
+}
+
+.vr-footer-section-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.horizontal-line {
+    background-color: #5a7184;
+}
+
+.vr-footer-section-copyrights {
+    color: #959ead;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.footer-section-address {
+    color: #959ead;
+    font-family: "Roboto";
+    font-size: 14px;
+}
+
+.home-back-buttom {
+    width: 120px
+}
