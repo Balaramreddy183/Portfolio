@@ -414,16 +414,19 @@
     padding: 20px 5%;
     margin: 3% 3%;
     color: #000;
-    border: 1px solid #000; 
+    border: 2px solid #000;
     position: relative;
     max-width: 500px;
     min-width: 350px;
     transition: all 1s ;
+    box-shadow: 0 0 50px #abaaaa;
    
 }
 
 .about-sub-container:hover {
     color: #fff !important;
+    border: 2px dashed #000;
+   
 }/*
 
 .exp-img-bg {
@@ -434,7 +437,7 @@
     background-size: cover;
     background-position: center;
     filter: drop-shadow(0px 0px 10px  #e1a6a6);
-    background-color: #e1a6a6;
+    background-color: #8cabd9;
     color: #f9f4f4;
     filter: grayscale(100%);
 }
