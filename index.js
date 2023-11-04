@@ -51,7 +51,7 @@ $(document).on('click', function (e) {
       $('#popoverButton').popover('hide');
     }
   });
-
+  // popover ends here
   document.getElementById('formSubmit').addEventListener('click',(e)=>{
     e.preventDefault();
     const formdata=document.getElementById('contactForm');
@@ -68,6 +68,6 @@ $(document).on('click', function (e) {
   xhr.send(data);
   })
   
-  // popover ends here
+
 
   
