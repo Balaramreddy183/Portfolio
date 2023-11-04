@@ -51,6 +51,22 @@ $(document).on('click', function (e) {
       $('#popoverButton').popover('hide');
     }
   });
+
+  document.getElementById('formSubmit').addEventListener('click',(e)=>{
+    e.preventDefault();
+    const formdata=document.getElementById('contactForm');
+    var data = new FormData(formdata);
+
+    var xhr = new XMLHttpRequest();
+    xhr.addEventListener("readystatechange", function() {
+    if(this.readyState === 4) {
+      console.log(this.responseText);
+      formdata.rest();
+    }
+  });
+  xhr.open("POST", "https://inforium-jxyh.onrender.com/ContactUsFormSubmission/");
+  xhr.send(data);
+  })
   
   // popover ends here
 
