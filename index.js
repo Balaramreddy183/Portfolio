@@ -61,7 +61,7 @@ $(document).on('click', function (e) {
     xhr.addEventListener("readystatechange", function() {
     if(this.readyState === 4) {
       console.log(this.responseText);
-      formdata.rest();
+      formdata.reset();
     }
   });
   xhr.open("POST", "https://inforium-jxyh.onrender.com/ContactUsFormSubmission/");
