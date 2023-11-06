@@ -52,6 +52,36 @@ $(document).on('click', function (e) {
     }
   });
   // popover ends here
+  // work section  start
+function WorkSectionButtonNotAllowed () {
+  const btnWorkSectionElement1 = document.getElementById('workButtonOne');
+  const btnWorkSectionElement2 = document.getElementById('workButtonTwo');
+  btnWorkSectionElement1.textContent = "🚫 Confidential";
+  btnWorkSectionElement2.textContent = "🚫 Confidential";
+}
+
+
+
+  // $("#work").hover(function () {
+   // $(".img1").css("opacity", "0");
+   // $(".img2").css("opacity", "0");
+   // $(".img3").css("opacity", "0");
+   // $(".img4").css("opacity", "0");
+  //}
+  //, function () {
+  //  $(".img1").css("opacity", "1");
+   // $(".img2").css("opacity", "1");
+   // $(".img3").css("opacity", "1");
+   // $(".img4").css("opacity", "1");
+    //})
+    // work section end
+
+
+
+
+
+
+
   document.getElementById('formSubmit').addEventListener('click',(e)=>{
     e.preventDefault();
     const formdata=document.getElementById('contactForm');
