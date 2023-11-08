@@ -18,6 +18,7 @@ html{
     opacity: 1;   
     border-bottom: #000 3px solid; 
     background-image: linear-gradient(to right, #929AAB , #f9f4f4); 
+    box-shadow: 0px 0px  5px #000;
 }
 
 @media (min-width:991px ) {

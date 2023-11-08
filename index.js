@@ -58,6 +58,7 @@ function WorkSectionButtonNotAllowed () {
   const btnWorkSectionElement2 = document.getElementById('workButtonTwo');
   btnWorkSectionElement1.textContent = "🚫 Confidential";
   btnWorkSectionElement2.textContent = "🚫 Confidential";
+  
 }
 
 
