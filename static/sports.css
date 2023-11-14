@@ -1,0 +1,15 @@
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+div h1 {
+    font-size: 3rem;
+}
+div h1:hover {
+    padding: 15px;
+    border-radius: 15px;
+
+}

@@ -105,24 +105,13 @@
     border-collapse: collapse;
 }
 
-.landing-page-main-bg-container:hover .nav-button:active{
-    transform:scale(0.96);
+
+.dropdown-menu  {
+    background-color: #929AAB !important;   
+    box-shadow: 0 5px 5px 1px #929AAB;
+    border: 1px solid #fff !important;
 }
-.landing-page-main-bg-container:hover .nav-button::after{
-    content: "";
-    display: block;
-    height: 3px;
-    width: 100%;
-    background-color: #000;
-    transform: scalex(0);
-    transform-origin: left;
-    transition: transform 0.3s ease;
-    color: #93dada;
-}
-.landing-page-main-bg-container:hover .nav-button:hover::after{
-    transform: scalex(1);
-    border-collapse: collapse;
-}
+
 /*----------------------- Navbar ending --------------------------*/
 .portfolio-bg-container {
     background: #f9f4f4;
