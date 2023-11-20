@@ -137,8 +137,7 @@
     align-items: center;
     background: url("https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
     background-size: cover;
-    background-position: center;
-    
+    background-position: center;    background-attachment: fixed;
 
 }
 
@@ -147,9 +146,64 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: start;
-    margin-left: 4em;
+    box-shadow: 0 0 10px #000000e8;
+    border-radius: 25px;
+    background-color: #ece7e16c;
+    
+}
+.name-text-bg-container:hover {
+    box-shadow: 0px 0px 10px ;
+    filter: drop-shadow(0 0 10px #00000050);
+}
+@media (max-width:992px) {
+    .name-text-bg-container{ 
+        align-items: center;
+        gap: 5px;
+        padding: 30px 0 ;
+    }
+    .tag-line-text {
+        font-size: 26px;
+    }
+}
+@media (min-width:991px) {
+    .name-text-bg-container {
+        align-items: start;
+        padding-left: 4rem;
+        
+    }
+    .tag-line-text {
+        font-size: 35px;
+    }
 
+}
+
+
+.small-text {
+    font-size: 25px;
+    font-style: oblique;
+    padding: 5px 15px;
+
+}
+
+
+
+.name-text {
+    font-size: 30px;
+    font-style: initial;
+    padding: 5px 15px;
+}
+
+.tag-line-text {    
+    font-weight: bold;
+    font-family: 'Courier New';
+    font-family: myFirstFont !important;
+    padding: 5px 15px;
+}
+
+
+.landing-page-buttons-bg {
+    display: flex;
+    gap: 5px;
 }
 
 .social-media-icons-bg-container {
@@ -196,39 +250,6 @@
 }
 
 
-
-.small-text {
-    font-size: 25px;
-    font-style: oblique;
-    padding:  5px 15px;
-   
-}
-
-.small-text:hover, .name-text:hover,.tag-line-text:hover {
-    box-shadow: 0 0 10px #00000071;
-    border-radius: 25px;
-    cursor: none;
-    
-}
-
-.name-text {
-    font-size: 30px;
-    font-style: initial;    
-    padding:  5px 15px;
-}
-
-.tag-line-text {
-    font-size: 35px;
-    font-weight: bold;
-    font-family: 'Courier New';
-    font-family: myFirstFont !important;
-    padding:  5px 15px;
-}
-
-.landing-page-buttons-bg {
-    display: flex;
-    gap: 5px;
-}
 
 .resume-button {
     --width: 90px;
@@ -357,17 +378,18 @@
     justify-content: center;
     align-items: center;
     font-family: myFirstFont;
-    background-image: url("https://images.unsplash.com/photo-1516315720917-231ef9acce48?q=80&w=2067&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-image: url("https://images.unsplash.com/photo-1636955792912-de44a3ba46cd?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
-
+  
 }
+
 .skill-name-heading {
-    color: #d3c9c9;
+    color: #000;
     font-weight: bolder;
     text-decoration: underline;
 }
+
 .skill-names {
     text-decoration: underline;
     font-weight: bolder;
@@ -409,8 +431,8 @@
 
 .skill-hr {
     height: 50vh;
-    width: 2px;
-    background-color: #d3c9c9;
+    width: 3px;
+    background-color: #0a0a0a;
 }
 
 .buttons-container-l {
@@ -491,7 +513,7 @@
 }*/
 
 .sports-img-bg:hover {
-    background-image: url(/images/sports-img.png);
+    background-image: url(../images/sports-img.png);
     background-size: cover;
     background-position: center;
     filter: drop-shadow(0px 0px 10px #e1a6a6);
@@ -519,7 +541,7 @@
     
 } */
 .edu-img-bg:hover {
-    background-image: url(/images/edu-img.png);
+    background-image: url(../images/edu-img.png);
     background-size: contain;
     background-position: center;
     filter: drop-shadow(0px 0px 20px #000);
@@ -608,10 +630,11 @@
 
 
 .work-sub-bg-container {
-    background-color: #fff;
+    background-color: #ffffff28;
     height: 100%;
     border-radius: 15px;
     margin: 1% 8%;
+    box-shadow: 0 0 10px #0000003b;
 }
 
 .my-work-preview-container {
@@ -787,7 +810,7 @@
 
 @media (min-width: 768px) {
     .contact-sub-bg-container {
-        background: url("/images/contact_us_bg.jpg");
+        background: url("../images/contact_us_bg.jpg");
         background-size: cover;
         background-attachment: fixed;
         background-position: center;
