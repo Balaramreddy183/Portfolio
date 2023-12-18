@@ -1,7 +1,9 @@
+/* html starts here */
+html{
+    scroll-behavior: smooth;
+}
+/* html ends here */
 /*-------------Navbar starting -----------*/
-
-
-
 
 
 .navbar {
@@ -248,7 +250,14 @@
     filter: brightness(150%);
     border-radius: 10%;
 }
-
+.hire-me-btn {
+    background-color: #d3c9c9 !important;
+    color: #000 !important;
+}
+.hire-me-btn:hover {
+    background-color: #000000e6 !important;
+    color: #fff !important;
+}
 
 
 .resume-button {
@@ -420,7 +429,8 @@
     width: 180px;
     box-shadow: 0 5px 5px #a8a6a6;
     border-width: 0 !important;
-    border-radius: 25px;
+    border-radius: 25px; 
+    color: white !important;
 }
 
 .buttons-container {
@@ -440,11 +450,17 @@
     align-items: center;
     justify-content: space-between;
     padding: 5px 15px;
-    margin: 5px;
-    background: #e8e8e8;
+    margin: 15px 5px;
+    background: #d3c9c9b7;
     border-radius: 5px;
+    box-shadow: 0 0 10px #00000042;
+
+   
 }
 
+.buttons-container-l:hover {
+    filter: drop-shadow(0 0 10px #d3c9c9b0);
+}
 .learning-text {
     background: #343a40;
     background: #343a40;

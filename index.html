@@ -47,11 +47,14 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav ml-auto animate__animated animate__fadeInUp">
-                <a class="nav-link aa scrollto nav-button " data-target="#landingPageSection">Home <span
-                        class="sr-only">(current)</span></a>
-                <a class="nav-link ab scrollto nav-button " data-target="#skillsPageSection">Skills</a>
-                <a class="nav-link ad scrollto nav-button " data-target="#aboutPageSection">About me</a>
-                <a class="nav-link ad scrollto nav-button " data-target="#workPageSection">Works</a>
+                <a class="nav-link aa scrollto nav-button " data-target="#landingPageSection"
+                    href="#landingPageSection">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link ab scrollto nav-button " data-target="#skillsPageSection"
+                    href="#skillsPageSection">Skills</a>
+                <a class="nav-link ad scrollto nav-button " data-target="#aboutPageSection"
+                    href="#aboutPageSection">About me</a>
+                <a class="nav-link ad scrollto nav-button " data-target="#workPageSection"
+                    href="#workPageSection">Works</a>
                 <div class="nav-item dropdown ">
                     <a class="nav-link ac scrollto nav-button " data-toggle="dropdown">Achivements</a>
                     <div class="dropdown-menu fade-down ">
@@ -60,10 +63,19 @@
                         </a>
                         <a class="dropdown-item" href="certifications.html" target="_blank">
                             Certifications <i class="fa-solid fa-file fa-flip"></i>
-                        </a>                        
+                        </a>
                     </div>
                 </div>
-                <a class="nav-link ae scrollto nav-button " data-target="#contactPageSection">Contact</a>
+                <div class="nav-item dropdown ">
+                    <a class="nav-link ac scrollto nav-button " data-toggle="dropdown">Tutorials</a>
+                    <div class="dropdown-menu fade-down ">
+                        <a class="dropdown-item " href="flutter-tutorial.html" target="_blank">
+                            Flutter Tutorials </i>
+                        </a>
+                    </div>
+                </div>
+                <a class="nav-link ae scrollto nav-button " data-target="#contactPageSection"
+                    href="#contactPageSection">Contact</a>
             </div>
         </div>
     </nav>
@@ -81,7 +93,7 @@
                             <h3 class="tag-line-text ">A Passionate Full-stack web Developer</h3>
                             <div class="landing-page-buttons-bg">
                                 <a href="mailto:balaramreddy.pandillapalli@gmail.com" target="_blank">
-                                    <button class="btn btn-secondary scrollto">Hire Me</button>
+                                    <button class="btn btn-secondary hire-me-btn">Hire Me</button>
                                 </a>
                                 <a href="./images/files/Balaramreddy.Pandillapalli.pdf" target="_blank">
                                     <div class="resume-button" data-tooltip="Click me">
@@ -158,23 +170,28 @@
                             <p class="container-heading1">My Skill Set</p>
                             <p class="skill-sub-heading">List of tech/tools I ' ve worked with</p>
                             <div class="buttons-container">
-                                <button class="btn btn-outline-dark skill-buttons">HTML </button>
-                                <button class="btn btn-dark skill-buttons">CSS</button>
+                                <button class="btn bg-secondary skill-buttons">HTML <i class="fa-brands fa-html5"></i>
+                                </button>
+                                <button class="btn btn-dark skill-buttons">CSS <i
+                                        class="fa-brands fa-css3-alt"></i></button>
                             </div>
                             <div class="buttons-container">
-                                <button class="btn btn-dark skill-buttons">JavaScript</button>
-                                <button class="btn btn-outline-dark skill-buttons">Bootstrap</button>
+                                <button class="btn btn-dark skill-buttons">JavaScript <i
+                                        class="fa-brands fa-js"></i></button>
+                                <button class="btn bg-secondary skill-buttons">Bootstrap <i
+                                        class="fa-brands fa-bootstrap"></i></button>
                             </div>
                             <div class="buttons-container">
-                                <button class="btn btn-outline-dark skill-buttons">Python</button>
-                                <button class="btn btn-dark skill-buttons">Git</button>
+                                <button class="btn bg-secondary skill-buttons">Python <i
+                                        class="fa-brands fa-python"></i></button>
+                                <button class="btn btn-dark skill-buttons">Git <i class="fa-brands fa-git"></i></button>
                             </div>
                             <div class="buttons-container">
                                 <button class="btn btn-dark skill-buttons">Canva</button>
-                                <button class="btn btn-outline-dark skill-buttons">Photography</button>
+                                <button class="btn bg-secondary skill-buttons">Photography</button>
                             </div>
                             <div class="buttons-container">
-                                <button class="btn btn-outline-dark skill-buttons">Client Communication</button>
+                                <button class="btn bg-secondary skill-buttons">Client Communication</button>
                                 <button class="btn btn-dark skill-buttons">Ms Office</button>
                             </div>
                         </div>
@@ -194,10 +211,10 @@
                                 <h5>Node</h5>
                                 <p class="learning-text">Learning</p>
                             </div>
-                            <div class="buttons-container-l">
+                            <!-- <div class="buttons-container-l">
                                 <h5>React</h5>
                                 <p class="learning-text">Learning</p>
-                            </div>
+                            </div> -->
                             <div class="buttons-container-l">
                                 <h5>Angular</h5>
                                 <p class="learning-text">Learning</p>
