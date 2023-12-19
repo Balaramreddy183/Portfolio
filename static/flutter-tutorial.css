@@ -1,7 +1,166 @@
+/* -------------------------Navbar starts here------------------ */
+
+.navbar {
+    opacity: 1;
+    box-shadow: 0px 0px 10px #000;
+    background: rgba(0, 0, 0, 0.5) !important;
+    color: #fff !important;
+
+}
+
+@media (min-width:991px) {
+    .navbar {
+        padding: 0rem 9rem !important;
+
+    }
+}
+
+@media (max-width:990px) {
+    .navbar {
+        border: unset;
+
+    }
+}
+
+.logo-bg {
+    font-family: 'Brush Script MT', cursive;
+    color: #d3c9c9 !important;
+
+}
+
+@media (max-width:990px) {
+    .logo-bg {
+        font-size: 32px;
+        font-weight: bold;
+    }
+}
+
+@media (min-width:991px) {
+    .logo-bg {
+        font-size: 42px;
+
+    }
+}
+
+.logo {
+    height: 10px;
+    padding: 0 !important;
+    filter: drop-shadow(0px 0px 20px 20px #e8e4e4);
+
+}
+
+.navbar-nav {
+    gap: 20px;
+    font-family: "Twklausanne 150", sans-serif;
+    font-family: "myFirstFont" !important;
+    font-weight: bold;
+    color: #fff !important;
+}
+
+@media (max-width:990px) {
+    .navbar-nav {
+        height: 100vh;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        gap: 51px;
+        top: 0;
+
+    }
+}
+
+.nav-link {
+    cursor: pointer;
+    transform: all 1s;
+    font-size: 18px;
+}
+
+.nav-link:hover {
+    border-radius: 5px;
+    color: #d3c9c9 !important;
+    font-size: 700;
+    transition: all 0.3s ease-in-out;
+
+}
+
+
+.nav-button {
+    position: relative;
+    overflow: hidden;
+    color: #d3c9c9 !important;
+
+}
+
+.nav-button:active {
+    transform: scale(0.96);
+}
+
+.nav-button::after {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 100%;
+    background-color: #d3c9c9;
+    transform: scalex(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
+    color: #93dada;
+}
+
+.nav-button:hover::after {
+    transform: scalex(1);
+    border-collapse: collapse;
+}
+
+
+.dropdown-menu {
+    background-color: #d3c9c95f !important;
+    box-shadow: 0 5px 5px 1px #929AAB;
+    border: 1px solid #fff !important;
+}
+
+/*----------------------- Navbar ending --------------------------*/
+
+@media (max-width:991px) {
+    .container-main-bg {
+        background-color: #cce5ff;
+        padding: 6rem 1rem 1rem 1rem !important;
+
+    }
+
+    .list-group {
+        display: flex;
+        flex-direction: row !important;
+        margin-top: 3rem;
+    }
+
+    .list-group-item {
+        min-width: 120px;
+        text-align: center;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+
+    }
+
+    .side-menu-main-bg {
+        position: fixed !important;
+        bottom: 2rem;
+        z-index: 9999;
+    }
+
+}
+
+@media (min-width:992px) {
+    .container-main-bg {
+        padding: 6rem;
+    }
+
+}
+
 .container-main-bg {
     background-color: #cce5ff;
-    margin: 3.5rem 0 0 0;
-    padding: 2rem;
+    height: 100vh;
 }
 
 .container-sub-bg {
@@ -9,15 +168,38 @@
     flex-direction: row;
 }
 
-.side-menu {
+.side-menu-main-bg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.side-menu {
     height: 50vh;
     width: 30vw;
 
 }
+
 .side-menu-bg {
-    overflow-y: auto;
+    overflow-y: scroll;
+    max-height: 70vh;
+    scroll-behavior: smooth;
+    scroll-snap-type: none;
+
 }
+
+.side-menu-bg::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.side-menu-bg {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
 .videos-main-bg {
     height: 100%;
     width: 80vw;
@@ -30,5 +212,4 @@
 
 .video-sub-bg {
     height: 100%;
-   
 }
