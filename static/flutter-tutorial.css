@@ -1,3 +1,63 @@
+#loginForm {
+    height: 100vh;
+    display: grid;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.loginform-sub {
+    width: 20vw;
+}
+
+#loginForm form {
+    background-color: #F8E8EE;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    border-radius: 15px;
+    padding: 2rem;
+}
+
+#loginForm input {
+    font-size: 20px;
+    width: 100px;
+    border: 1px solid #161A30;
+    text-align: center;
+    
+}
+#loginForm label {
+    font-family: "Roboto";
+}
+
+button {
+    width: fit-content;
+    min-width: 100px;
+    height: 45px;
+    padding: 8px;
+    border-radius: 15px !important;
+    border: 2.5px solid #E0E1E4;
+    box-shadow: 0px 0px 20px -20px;
+    cursor: pointer;
+    background-color: #AFC8AD;
+    transition: all 0.2s ease-in-out 0ms;
+    user-select: none;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  button:hover {
+    background-color: #F2F2F2;
+    box-shadow: 0px 0px 20px -18px;
+  }
+  
+  button:active {
+    transform: scale(0.95);
+  }
+
 /* -------------------------Navbar starts here------------------ */
 
 .navbar {
