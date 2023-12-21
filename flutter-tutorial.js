@@ -33,7 +33,7 @@ function checkPin(event) {
         console.log("User already logged in");
     } else {
         var enteredPin = document.getElementById("pinNumber");
-        var correctPin = "3690";
+        var correctPin = "7890";
 
         // Check the entered PIN
         if (enteredPin.value === correctPin) {
