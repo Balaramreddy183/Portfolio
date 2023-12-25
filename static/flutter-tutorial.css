@@ -275,3 +275,11 @@ button:active {
 .video-sub-bg {
     height: 100%;
 }
+
+.nine-sub-bg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}

@@ -628,15 +628,19 @@ html{
 .anchor-element {
     text-decoration: none;
     color: #000;
+    font-weight: bold;
     transition: all 0.5s;
 }
 
 .anchor-element:hover {
-    color: #fff;
-    padding: 1%;
     border-radius: 5px;
 }
-
+.anchor-element-view-more {
+    text-decoration: none;
+    color: #00000081;
+    font-weight: bold;
+    transition: all 0.5s;
+}
 /* --------------------------------- work page Start  ------------------------------*/
 
 .work-main-bg-container {
