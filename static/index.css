@@ -152,7 +152,6 @@ html{
     box-shadow: 0 0 10px #000000e8;
     border-radius: 25px;
     background-color: #ece7e16c;
-    padding: 2rem;
     
 }
 .name-text-bg-container:hover {
@@ -164,7 +163,7 @@ html{
         font-size: 16px;
     }
 }
-@media (max-width: 991px) {̥
+@media (min-width: 769px) {
     .name-text-bg-container{ 
         align-items: start;
         gap: 5px;
@@ -174,7 +173,7 @@ html{
         font-size: 26px;
     }
 }
-@media (min-width:992px) {
+@media (min-width:991px) {
     .name-text-bg-container {
         align-items: start;
         padding-left: 4rem;
