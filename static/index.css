@@ -139,7 +139,8 @@ html{
     align-items: center;
     background: url("https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
     background-size: cover;
-    background-position: center;    background-attachment: fixed;
+    background-position: center;   
+     background-attachment: fixed;
 
 }
 
@@ -157,11 +158,16 @@ html{
     box-shadow: 0px 0px 10px ;
     filter: drop-shadow(0 0 10px #00000050);
 }
-@media (max-width:992px) {
+@media screen and (max-width: 768px) {
+    .tag-line-text {
+        font-size: 16px;
+    }
+}
+@media (min-width: 769px) {
     .name-text-bg-container{ 
-        align-items: center;
+        align-items: start;
         gap: 5px;
-        padding: 30px 0 ;
+        padding: 30px 20px ;
     }
     .tag-line-text {
         font-size: 26px;
