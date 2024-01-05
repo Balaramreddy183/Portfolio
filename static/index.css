@@ -152,6 +152,7 @@ html{
     box-shadow: 0 0 10px #000000e8;
     border-radius: 25px;
     background-color: #ece7e16c;
+    padding: 2rem;
     
 }
 .name-text-bg-container:hover {
