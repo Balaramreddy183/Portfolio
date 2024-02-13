@@ -1,18 +1,49 @@
-
-
-
-
-
-
-
-
-.sports-bg {
+.sports-page-main-bg {
     min-height: 100vh;
     height: 100%;
-    background-color: beige;
+    margin: 4rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
-.img-gallery img:hover {
-    scale: 0.85;
-    box-shadow: 10px 26px 60px rgba(68, 77, 136, 0.3);
 
+.img-gallery-bg {
+    scale: 0.85;
+    height: 70vh;
+    text-align: center;
+    transition: all 1s;
+
+    color: #F8E8EE;
+}
+
+.img-gallery-bg:hover {
+    filter: drop-shadow(0px 0px 10px #FFFFFA);
+}
+
+.img-gallery {
+    height: 100%;
+    border: 2px solid #36454F;
+    transition: all 1s;
+    border-radius: 5px;
+    filter: grayscale(100%);
+}
+
+.img-gallery:hover {
+    border: unset;
+    filter: grayscale(0%);
+    transform: scale(1.1);
+
+}
+
+@media screen and (max-width: 768px) {
+    .img-gallery-bg {
+
+        height: 50vh;
+
+
+    }
+}
+
+body {
+    background-color: #2A3132 !important;
 }
